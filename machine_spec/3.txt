@@ -1,0 +1,18 @@
+#IPs of all the machines used
+0 127.0.0.1
+1 192.168.1.61
+2 192.168.1.62
+3 192.168.1.63
+4 192.168.1.84
+5 192.168.1.85
+6 192.168.1.86
+7 192.168.1.87
+processor_spec:
+# Alice:
+AliceMachines: 0 0 0
+# Bob:
+BobMachines: 0 0 0
+# Charlie:
+CharlieMachines: 0 0 0
+# David:
+DavidMachines: 0 0 0
