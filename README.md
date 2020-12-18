@@ -34,5 +34,4 @@ clear && ./PSI 1 0 40000 2 50000 1048576 1 0.25 |& tee "nn20_circuit_psi_0.25_5.
 
 clear && ./PSI 1 0 40000 3 50000 1048576 3 0.5
 
-./FourParty $1 $i 40000 $2 50000 $3 $4 $5 0.3 |& tee "$i.txt" & #|& tee "q$i.txt" &
-done
+
