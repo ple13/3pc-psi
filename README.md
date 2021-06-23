@@ -4,7 +4,7 @@ install required packages: sudo apt-get install libboost-all-dev
 
 How to compile and run:
 
-1. g++ -O3 -ftree-vectorize -march=native -msse4.1 -o PSI PSI.cpp Circuit/Gate.cpp Utility/ISecureRNG.cpp Utility/CryptoUtility.cpp Utility/Commitment.cpp Utility/Range.cpp Utility/Communicator.cpp Polynomial.cpp -lssl -lntl -lgmp -lpthread -std=c++11 -lcrypto -l:/usr/local/lib/libcryptopp.a -maes -pthread -mrdseed -rdynamic /usr/local/lib/librelic.so -lboost_system -lgmp /usr/local/lib/libemp-tool.so -Wl,-rpath,/usr/local/lib
+1. g++ -O3 -ftree-vectorize -march=native -msse4.1 -o PSI PSI.cpp Circuit/Gate.cpp Utility/ISecureRNG.cpp Utility/CryptoUtility.cpp Utility/Commitment.cpp Utility/Range.cpp Utility/Communicator.cpp Polynomial.cpp -lssl -lntl -lgmp -lpthread -std=c++11 -lcrypto -l:/usr/local/lib/libcryptopp.a -maes
 
 Link emp example:
 
